@@ -1,0 +1,36 @@
+
+header{
+    background-color: #fff;
+    width: 100%;
+    position:static;
+}
+
+.logo{
+    display: flex;
+}
+img{
+    height: 700;
+    width: 100;
+    margin: auto;
+    text-align: center;
+
+}
+.menu{
+    margin:auto;
+	text-align:center;
+    border-bottom: 2px solid red;
+    
+}
+.menu li{
+    float: none;
+	display: inline-block;
+    padding:5px 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(168, 0, 0);
+}
+li:hover{
+    
+  -webkit-transition: 1s linear;
+  transition: 0.5s linear;
+    color:rgb(255, 234, 0);
+}

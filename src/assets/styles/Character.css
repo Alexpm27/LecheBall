@@ -1,0 +1,38 @@
+.containerCharacter {
+    display: flex;
+    width: 1170px;
+    margin: 10px 10px 50px;
+    align-items: center;
+    justify-content: center;    
+    background-color: #ffffff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+    -webkit-transition: 1s linear;
+    transition: 1s linear;
+}
+.containerCharacter:hover{
+    -webkit-box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 14px 2px rgba(0,0,0,0.47);
+}
+.imgCharacter {
+    height: 100%;
+    width: 40%;
+}
+
+.txtCharacter {
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+.nameCharacter {
+    font-size: 1.3rem;
+}
+
+.descriptionCharacter {
+    font-size: 1.1rem;
+    margin-top: 15px;
+    text-align: justify;
+    padding-bottom: 30px;
+}
